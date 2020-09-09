@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(82, 55, 177, 0.658);
+}
+
+h1 {
+  text-align: center;
+}
+
+.shuttle-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #919097;
+  border: 3px solid rgb(255, 255, 255);
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  
+}
+
+.BT {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  font-size: 30px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.shuttle-card ul li{
+  text-decoration:none;
+ }
